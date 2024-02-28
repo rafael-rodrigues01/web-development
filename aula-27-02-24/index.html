@@ -32,7 +32,7 @@
       function calcular() {
         var peso = document.getElementById('iPeso').value;
         var altura = document.getElementById('iAltura').value;
-        var imc = peso / (altura * altura);
+        var imc = peso / altura ** 2;
 
         var resultado = '';
 
@@ -49,11 +49,9 @@
         } else {
           resultado = 'Obesidade III';
         }
+
+        document.getElementById('resultado').innerText = resultado;
       }
-
-      console.log(resultado);
-
-      document.getElementById('resultado').innerText = resultado;
     </script>
   </body>
 </html>
