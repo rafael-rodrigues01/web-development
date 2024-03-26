@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.loginNoturno {
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.loginNoturno h1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+}
+
+.loginNoturno p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dancing Script, sans-serif;
+}
+
+.login {
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.login p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.usuario {
+  font-size: 35px;
+  width: 75%;
+  margin-bottom: 5%;
+  padding: 5%;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border-color: #dbdbdb;
+  border-width: 2px;
+  border-style: solid;
+  font-family: Dancing Script, sans-serif;
+}
+
+.usuario:focus {
+  border-color: #f9832c;
+}
+
+.senha {
+  font-size: 35px;
+  width: 75%;
+  margin-bottom: 5%;
+  padding: 5%;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border-color: #dbdbdb;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.senha:focus {
+  border-color: #f9832c;
+}
+
+.enviar {
+  width: 90%;
+  height: 5vh;
+  font-size: 25px;
+  padding: 1%;
+  background-color: #e03342;
+  outline: none;
+  border-color: black;
+  color: #fff;
+  border-radius: 10px;
+  border-style: solid;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.enviar:hover {
+  background-color: #f9832c;
+}
+
+.figura {
+  width: 70vw;
+  height: 100%;
+}
+
+.figura img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
