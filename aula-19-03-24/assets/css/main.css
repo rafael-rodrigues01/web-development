@@ -18,17 +18,34 @@ body {
   padding: 10px;
   font-size: 24px;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #fff;
+  color: #333;
+  text-align: right;
+  outline: none;
+}
+
+#expression {
+  width: calc(100% - 4px);
+  padding: 2px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
   background-color: #fff;
   color: #333;
   box-shadow: 0px 2px 5px rgba(255, 0, 0, 0.1);
   text-align: right;
+  outline: none;
 }
 
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
+}
+
+.buttons span {
+  color: #fff;
 }
 
 button {
@@ -42,5 +59,9 @@ button {
 }
 
 button:hover {
-  background-color: #445361;
+  background-color: #495057;
+}
+
+.double-width {
+  grid-column: span 2;
 }
