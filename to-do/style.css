@@ -1,0 +1,129 @@
+* {
+  margin: 0 5px;
+}
+
+body {
+  display: flex;
+  background-color: rgb(241, 241, 241);
+}
+
+.containerEsquerda {
+  width: 50%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+
+}
+
+.containerDireita {
+  width: 50%;
+  height: fit-content;
+}
+
+.contador {
+  position: inherit;
+  height: 40vh;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.novaTarefa {
+  height: 60vh;
+
+}
+
+.contadorTarefasConcluidas {
+  width: 100%;
+  height: fit-content;
+  margin: 3px 5px;
+  padding: 15px 0;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+}
+
+.criarTarefa {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  min-width: 275px;
+  padding: 15px 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.criarTarefa h4 {
+  margin: 10px 5vw;
+}
+
+.digitarTextos {
+  margin: 0 auto 10px auto;
+  font-size: 20px;
+  padding: 5px 4vw;
+  width: 60%;
+
+}
+
+.enviar {
+  margin: 10px auto 0px auto;
+  width: 50%;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.criarTarefa h1 {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.tarefa {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.tarefa h1, h4 {
+  padding: 10px 0 0 1vw;
+}
+
+.selecionarStatus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  width: 95%;
+  margin: 20px 0 20px 0;
+  padding: 0 5%;
+}
+
+.apagarTarefa {
+  width: 100%;
+  background-color: white;
+  opacity: 15%;
+  color: black;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0;
+}
+
+.apagarTarefa:hover {
+  background-color: rgb(206, 27, 27);
+  opacity: 80%;
+  color: white;
+}
