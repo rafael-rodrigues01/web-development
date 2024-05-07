@@ -3,7 +3,13 @@
   padding: 0;
 }
 
+body {
+  height: 100vh;
+}
 
+iframe {
+  border: none;
+}
 
 h1 {
   background-color: aqua;
@@ -12,4 +18,33 @@ h1 {
 
 .container {
   display: flex;
+}
+
+.container nav {
+  display: flex;
+  background-color: aquamarine;
+  align-items: start;
+}
+
+.container nav .links {
+  background-color: blue;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.container nav .links a {
+  display: block;
+  text-align: center; 
+  width: 100%; 
+}
+
+.container .main_content {
+  width: 100%;
+}
+
+footer {
+  background-color: chartreuse;
+  height: 10vh;
 }
