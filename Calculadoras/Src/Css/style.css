@@ -27,7 +27,6 @@ h1 {
 }
 
 .container nav .links {
-  background-color: blue;
   display: flex; 
   flex-direction: column;
   justify-content: space-around;
